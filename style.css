@@ -1,13 +1,38 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
 a {
   color: orange;
 }
-
 a:hover {
   color: black;
 }
-/*# sourceMappingURL=style.css.map */
+
+#weather {
+  padding: 80px 0;
+}
+#weather .box {
+  background-color: #a4caff;
+  padding: 25px;
+  border-radius: 20px;
+  width: 250px;
+}
+#weather .box .data h1, #weather .box .data h2 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+#weather .box input {
+  border-radius: 20px;
+  height: 40px;
+  padding: 0;
+}
+#weather .box #btn {
+  color: white;
+  background-color: #79afff;
+  padding: 10px;
+  margin: 25px;
+  border-radius: 20px;
+}/*# sourceMappingURL=style.css.map */
